@@ -1,0 +1,63 @@
+# ═══════════════════════════════════════
+#   Sensitive / Private
+# ═══════════════════════════════════════
+config.py
+.env
+
+# ═══════════════════════════════════════
+#   Bot Runtime Data
+# ═══════════════════════════════════════
+telegram/data/users.json
+telegram/data/tasks.json
+telegram/data/stats.json
+telegram/data/bot_users.json
+telegram/logs/
+telegram/outputs/
+telegram/uploads/
+telegram/temp/
+
+# ═══════════════════════════════════════
+#   Locks
+# ═══════════════════════════════════════
+bot.lock
+bot_processor.lock
+*.lock
+
+# ═══════════════════════════════════════
+#   Dropper Build Artifacts
+# ═══════════════════════════════════════
+dropper_rebuild/build/
+dropper_rebuild/original/
+dropper_rebuild/assets/dbliqgnjl.dat
+
+# ═══════════════════════════════════════
+#   Python
+# ═══════════════════════════════════════
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ═══════════════════════════════════════
+#   IDE / OS
+# ═══════════════════════════════════════
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ═══════════════════════════════════════
+#   Old Web Files (Already Deleted)
+# ═══════════════════════════════════════
+app.py
+templates/
+static/
+apk_dropper/
+requirements.txt
